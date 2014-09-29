@@ -10,11 +10,11 @@ Pod::Spec.new do |s|
   s.author           = { 'Matthew Morey'  => 'me@matthewmorey.com',
                          'Terry Lewis II' => 'terry@ploverproductions.com',
                          'Matt Glover' => '@mattglover' }
-  s.source           = { :git => 'https://github.com/mmorey/MDMCoreData.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/DanielHeckrath/MDMCoreData.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/xzolian'
   s.requires_arc = true
   s.source_files = 'Classes/*.{h,m}'
-  s.frameworks = 'CoreData'
+  s.frameworks = 'CoreData', 'UIKit'
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.8'
 
